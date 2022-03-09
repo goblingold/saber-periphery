@@ -20,7 +20,7 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = ">=0.17"
-anchor-spl = ">=0.17"
+anchor-lang = "=0.20.1"
+anchor-spl = "=0.20.1"
 mint-proxy = { path = "../mint-proxy", version = "^1.0", features = ["cpi"] }
-vipers = "1.5.5"
+vipers = { git = "https://github.com/goblingold/vipers", rev = "a947df7"}
